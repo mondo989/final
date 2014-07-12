@@ -177,7 +177,10 @@ strong {
 }
 
 .main-font {
-	margin-top: -100px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 40%;
 	text-align: center;
 	-webkit-animation: main-appear 2s  ease-in;
 	-moz-animation: main-appear 2s  ease-in;
@@ -550,8 +553,20 @@ margin-left: 200px;
 }
 .tp {
 	background-color: black;
-	width: 96%;
+	left: 0;
+	right: 0;
 	margin: 0 auto;
+	position: fixed;
+	top: 0;
+}
+
+.tpp {
+	background-color: black;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	position: fixed;
+	bottom: 0;
 }
 
 .about-circle {
